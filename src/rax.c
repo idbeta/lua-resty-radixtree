@@ -136,7 +136,7 @@ static inline void *raxStackPop(raxStack *ts) {
  * it. */
 static inline void *raxStackPeek(raxStack *ts) {
     if (ts->items == 0) return NULL;
-    return ts->stack[ts->items-1];
+    return  ts->stack[ts->items-1];
 }
 
 /* Free the stack in case we used heap allocation. */

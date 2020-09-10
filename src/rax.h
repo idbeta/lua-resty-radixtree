@@ -133,7 +133,7 @@ typedef struct raxNode {
 typedef struct rax {
     raxNode *head;
     uint64_t numele;
-    uint64_t numnodes;
+    uint64_t  numnodes;
 } rax;
 
 /* Stack data structure used by raxLowWalk() in order to, optionally, return

@@ -28,7 +28,7 @@
 void *
 radix_tree_new()
 {
-    return (void *)raxNew();
+    return  (void *)raxNew();
 }
 
 
